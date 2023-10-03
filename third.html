@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Maldia</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+  <!-- Style css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="rekabet-favicon.png" type="image/x-icon">
+
+
+
+  <!-- font awasome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* Custom popup styles */
+    #popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+    }
+
+    /* Style for table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      text-align: center;
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .inputplusbutton {
+      font-size: 5px;
+      background-color: #FF3399;
+      width: 25px;
+      height: 20px;
+    }
+  </style>
+
+</head>
+
+
+<!-- Third Page Starting with new Section -->
+
+<div id="first-con" class="main-container d-flex">
+  <div class="sidebar" id="side_nav" style="height: 100vh;">
+    <div class="header-box">
+      <h1 class="fs-4 text-center text-white"><a class="text-decoration-none text-white" href="index.html">Rakabet</a>
+      </h1>
+      <div id="board-circle" class="mx-auto">
+        <h4 class="mx-auto text-center pt-5">Malldia</h4>
+      </div>
+      <button class="btn d-md-none d-block close-btn px-1 py-0 text-white"><i
+          class="fa-solid fa-bars-staggered"></i></button>
+    </div>
+
+    <div class="text-center pt-1">
+      <h6 class="text-white">EU/PL48/5475447</h6>
+      <p class="text-white">Maldia E Ticaret Tekstil Sanayi Tic</p>
+    </div>
+
+    <div class="scrollable-table0">
+      <ul class="list-unstyled px-2 py-3">
+        <!-- Sidebar Links -->
+        <li class=""><a href="fourth.html" class="text-decoration-none text-white d-block"><i
+          class="fa-solid fa-coins"></i>&nbsp; Competition Control</a>
+        </li>
+  
+        <li class=""><a href="main.html" class="text-decoration-none text-white d-block"><i
+          class="fa-solid fa-cart-shopping"></i> &nbsp; Define Competition</a></li>
+  
+        <li class=""><a href="second.html" class="text-decoration-none text-white d-block"><i
+          class="fa-solid fa-shop"></i> &nbsp; Start Competing Product</a></li>
+  
+        <li class="active"><a href="third.html" class="text-decoration-none text-white d-block"><i
+          class="fa-solid fa-warehouse"></i> &nbsp;Warehouse List</a></li>
+  
+        <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+          class="fa-brands fa-stack-exchange"></i>&nbsp; Company List</a></li>
+  
+        <li class=""><a href="fifth.html" class="text-decoration-none text-white d-block"><i
+          class="fa-solid fa-comment"></i>&nbsp; Best Selling Analysis</a></li>
+  
+        <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+          class="fa-solid fa-handshake"></i>&nbsp;Advertising Analysis</a></li>
+  
+        <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+          class="fa-solid fa-newspaper"></i>&nbsp;Competition Integration</a></li>
+      </ul>
+    </div>
+
+    <!-- Sidebar last btn -->
+    <div class="text-center py-5">
+      <i class="fs-5 fa-solid fa-right-from-bracket"><a href="" class="mx-3 text-decoration-none text-white"
+          style="font-family: Bai Jamjuree;">Exit</a></i><br>
+    </div>
+
+  </div>
+
+  <!-- This is a another Section -->
+  <div class="content" id="content">
+
+    <div id="top-bar" class="bg-white text-muted my-2">
+      <h3 class="text-muted">WareHouse BoyBox Product List</h3>
+    </div>
+
+    <!-- Navbar Start-->
+    <div class="navspace">
+      <nav id="navb" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="btn px-1 py-0 open-btn"><i class="fa-solid fa-bars-staggered fs-4"></i></button>
+          <!-- navbar Togler if you want, then you can open it -->
+          <div class="collapse navbar-collapse navspace" id="navbarNav">
+            <ul class="navbar-nav" style="font-size: 13px;">
+              <li class="nav-item">
+                <a class="nav-link aria-current=" href="#">All Regions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">TR Region</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RU Region</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">US Region</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AS Region</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AFK Region</a>
+              </li>
+            </ul>
+
+            <div id="top-bar2" class="pt-2 text-center mx-auto">
+              <p class="text-white">Maldia e ticaret Sanayi Tic ltd sti<br><b>Company id 545443</b></p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+
+    <!-- Search Bar third Section-->
+    <div id="form-control1" class="container pt-3">
+      <form class="d-flex" role="search">
+        <span class="pt-1 pe-2" for="search">Search</span>
+        <input class="form-control me-2 w-25" type="search" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+
+    <!-- Table List Start -->
+    <div id="table-line2" class="my-3 px-3 d-flex">
+      <h3>WareHouse BoyBox Product List</h3>
+
+      <div class="icon">
+        <div class="btn-group" role="group" aria-label="">
+
+          <div class="btn-group" role="group">
+            <button id="dropdownId" type="button" class="btn btn-outline-white dropdown-toggle text-white"
+              data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Select MarketPlace
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item text-dark" href="#">First Dropdown</a>
+              <a class="dropdown-item text-dark" href="#">Second Dropdown</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Table Box -->
+
+    <div class="scrollable-table3 table-responsive mx-auto" style="width: 100%;">
+      <table class="table" style="width: 100%;">
+        <thead>
+          <tr>
+            <th scope="col" style="width: 20%;">Select</th>
+
+            <th scope="col" style="width: 1%;">Transiction</th>
+            <th scope="col" style="width: 20%;">Order</th>
+            <th scope="col" style="width: 2%;">BuyBox</th>
+            <th scope="col" style="width: 5%;">Name Product</th>
+            <th scope="col" style="width: 6%;">Max Price</th>
+            <th scope="col" style="width: 5%;">Min Price</th>
+            <th scope="col" style="width: 5%;">Price Diffrance</th>
+            <th scope="col" style="width: 7%;">StockCard Price</th>
+            <th scope="col" style="width: 3%;">InstantCompet price</th>
+            <th scope="col" style="width: 12%;">Currancy</th>
+            <th scope="col" style="width: 12%;">Area</th>
+            <th scope="col" style="width: 15%;">RivalComp 1</th>
+            <th scope="col" style="width: 8%;">RivalComp 2</th>
+            <th scope="col" style="width: 10%;">RivalComp 3</th>
+            <th scope="col" style="width: 9%;">Lowest Price1</th>
+            <th scope="col" style="width: 6%;">Lowest Price2</th>
+            <th scope="col" style="width: 7%;">Lowest Price3</th>
+            <th scope="col" style="width: 4%;">Company Name</th>
+            <th scope="col" style="width: 9%;">Con WareHouse ID</th>
+            <th scope="col" style="width: 8%;">Brand</th>
+            <th scope="col" style="width: 9%;">MarketPlace</th>
+            <th scope="col" style="width: 4%;">Magaze Adi</th>
+            <th scope="col" style="width: 8%;">Store Name</th>
+            <th scope="col" style="width: 7%;">Variant</th>
+            <th scope="col" style="width: 6%;">SKU</th>
+            <th scope="col" style="width: 5%;">ID Type</th>
+            <th scope="col" style="width: 4%;">Barcode</th>
+            <th scope="col" style="width: 12%;">Category Tree/Product Link</th>
+            <th scope="col" style="width: 22%;">Report</th>
+          </tr>
+        </thead>
+
+        <!-- First Table row-->
+        <tbody>
+          <tr>
+            <td><input type="checkbox" name="item1" value="value1"></td>
+            <td>
+              <span>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+              </span>
+            </td>
+            <td>1</td>
+            <td>5</td>
+            <td>Varse Doal Dzel</td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+            <td>1439</td>
+            <td>1229</td>
+            <td>$</td>
+            <td>TR</td>
+            <td>Yamur Kozmetik</td>
+            <td>1229</td>
+            <td>Perfume Point</td>
+            <td>1339</td>
+            <td>Mavi Kozmek</td>
+            <td>1439</td>
+            <td>Markes Teksi</td>
+            <td>MIL324234</td>
+            <td>Versance</td>
+            <td>Trendol</td>
+            <td>Maldia</td>
+            <td>124324</td>
+            <td>York</td>
+            <td>42345232</td>
+            <td>EAN</td>
+            <td>42121246344232</td>
+            <td>https://www.youtube.com</td>
+            <td><a href="#" class="">Viewing</a></td>
+
+
+          </tr>
+        </tbody>
+
+        <!-- Second Table row-->
+        <tbody>
+          <tr>
+            <td><input type="checkbox" name="item1" value="value1"></td>
+            <td>
+              <span>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+              </span>
+            </td>
+            <td>1</td>
+            <td>5</td>
+            <td>Varse Doal Dzel</td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+
+            <td>1439</td>
+            <td>1229</td>
+            <td>$</td>
+            <td>TR</td>
+            <td>Yamur Kozmetik</td>
+            <td>1229</td>
+            <td>Perfume Point</td>
+            <td>1339</td>
+            <td>Mavi Kozmek</td>
+            <td>1439</td>
+            <td>Markes Teksi</td>
+            <td>MIL324234</td>
+            <td>Versance</td>
+            <td>Trendol</td>
+            <td>Maldia</td>
+            <td>124324</td>
+            <td>York</td>
+            <td>42345232</td>
+            <td>EAN</td>
+            <td>42121246344232</td>
+            <td>https://www.youtube.com</td>
+            <td><a href="#" class="">Viewing</a></td>
+
+          </tr>
+        </tbody>
+
+        <!-- Third Table row-->
+        <tbody>
+          <tr>
+            <td><input type="checkbox" name="item1" value="value1"></td>
+            <td>
+              <span>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+              </span>
+            </td>
+            <td>1</td>
+            <td>5</td>
+            <td>Varse Doal Dzel</td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+            <td>1439</td>
+            <td>1229</td>
+            <td>$</td>
+            <td>TR</td>
+            <td>Yamur Kozmetik</td>
+            <td>1229</td>
+            <td>Perfume Point</td>
+            <td>1339</td>
+            <td>Mavi Kozmek</td>
+            <td>1439</td>
+            <td>Markes Teksi</td>
+            <td>MIL324234</td>
+            <td>Versance</td>
+            <td>Trendol</td>
+            <td>Maldia</td>
+            <td>124324</td>
+            <td>York</td>
+            <td>42345232</td>
+            <td>EAN</td>
+            <td>42121246344232</td>
+            <td>https://www.youtube.com</td>
+            <td><a href="#" class="">Viewing</a></td>
+
+          </tr>
+        </tbody>
+
+        <!-- Fourth Table row-->
+        <tbody>
+          <tr>
+            <td><input type="checkbox" name="item1" value="value1"></td>
+            <td>
+              <span>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+              </span>
+            </td>
+            <td>1</td>
+            <td>5</td>
+            <td>Varse Doal Dzel</td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+            <td>
+              <input class="rates" type="number" placeholder="0.00">
+              <button class="inputplusbutton btn btn-danger"><i class="fa-solid fa-plus"></i></button>
+            </td>
+            <td>1439</td>
+            <td>1229</td>
+            <td>$</td>
+            <td>TR</td>
+            <td>Yamur Kozmetik</td>
+            <td>1229</td>
+            <td>Perfume Point</td>
+            <td>1339</td>
+            <td>Mavi Kozmek</td>
+            <td>1439</td>
+            <td>Markes Teksi</td>
+            <td>MIL324234</td>
+            <td>Versance</td>
+            <td>Trendol</td>
+            <td>Maldia</td>
+            <td>124324</td>
+            <td>York</td>
+            <td>42345232</td>
+            <td>EAN</td>
+            <td>42121246344232</td>
+            <td>https://www.youtube.com</td>
+            <td><a href="#" class="">Viewing</a></td>
+
+
+          </tr>
+        </tbody>
+
+      </table>
+
+    </div>
+
+    <!-- pagination Bar -->
+    <div class="container mt-4">
+      <div class="pagination-bar ml-2">
+
+        <div class="pagination-end" aria-label="Page navigation">
+          <ul class="pagination pt-1">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <br>
+
+
+    <!-- table box end -->
+  </div>
+</div><br>
+
+
+
+
+
+<!-- First View Button Click -->
+
+<body>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+  <!-- jquery cdn -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
